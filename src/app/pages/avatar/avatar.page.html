@@ -1,0 +1,29 @@
+<app-header titulo="Avatar"></app-header>
+
+<ion-content>
+    <ion-avatar>
+        <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y" />
+    </ion-avatar>
+
+    <ion-chip>
+        <ion-avatar>
+            <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y" />
+        </ion-avatar>
+        <ion-label>Chip Avatar</ion-label>
+    </ion-chip>
+
+    <ion-list>
+        <ion-chip color="primary">
+            <ion-avatar>
+                <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y" />
+            </ion-avatar>
+            <i-label> my chyp</i-label>
+        </ion-chip>
+        <ion-item *ngFor="let item of [1,2,3,4,5,6]">
+            <ion-avatar slot="start">
+                <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y" />
+            </ion-avatar>
+            <i-label>Imagen lista</i-label>
+        </ion-item>
+    </ion-list>
+</ion-content>

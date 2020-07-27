@@ -33,7 +33,7 @@ export class AlertPage implements OnInit {
             text:"ok",
             role:"ok",
             handler:(e)=> { 
-            //  console.log(e.nuevoTitulo )
+             console.log(e.nuevoTitulo )
             this.titulo= e.nuevoTitulo
               }
           },
